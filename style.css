@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+}
+
+.page {
+	width: 100%;
+}
+
+.leftCol {
+	float: left;
+	width: 40%;
+}
+
+.rightCol {
+	float: right;
+	width: 60%;
+}
+
+.sharedInfo {
+	width: 100%;
+	position: relative;
+	bottom: 0%;
+}
+
+.phone {
+	height: 17%;
+	width: 50%;
+	float: left;
+	background-color: green;
+}
+
+.silence {
+	height: 17%;
+	width: 50%;
+	float: right;
+	background-color: red;
+}
+
+.studio {
+	height: 50%;
+	width: 100%;
+}
+
+.studio1 {
+	width: 50%;
+	float: left;
+	background-color: green;
+}
+
+.studio2 {
+	width: 50%;
+	float: right;
+	background-color: green;
+}
+
+.studioTitle {
+	height: 50%;
+}
+
+.studioStatus {
+	height: 50%;
+}
+
+.studio h1 {
+	font-size: 65px;
+}
+
+* html #tbl {position: absolute; top: 50%;}
+#tbl[id] {display: table; height: 100%; width: 100%}
+* html #cell {position: relative; top: -50%;}
+#cell[id] {display: table-cell; vertical-align: middle;}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	margin: auto;
+}
